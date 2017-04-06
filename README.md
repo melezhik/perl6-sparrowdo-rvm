@@ -4,10 +4,15 @@
 
 ## SYNOPSIS
 
-```
-use Sparrowdo::Rvm;
-```
+[Sparrowdo](https://github.com/melezhik/sparrowdo) module to install RVM and Ruby.
 
+    # install default RVM and default Ruby version
+    $ cat sparrowfile
+    module_run 'Rvm';
+    
+    # install specific Ruby version
+    module_run 'Rvm', %( ruby_version => 2.1.2 );
+    
 ## LICENSE
 
 All files (unless noted otherwise) can be used, modified and redistributed
