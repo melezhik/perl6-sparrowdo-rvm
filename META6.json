@@ -19,10 +19,12 @@
     
   },
   "provides": {
-    
+    "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"    
   },
   "depends": [
-    "Test::META"
+    "Test::META",
+    "Sparrowdo",
+    "Sparrowdo::RemoteFile"
   ],
   "tags": [
     
@@ -31,7 +33,7 @@
   "test-depends": [
     
   ],
-  "description": "",
+  "description": "Install RVM and Ruby",
   "production": false,
   "emulates": {
     
