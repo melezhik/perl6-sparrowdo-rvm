@@ -10,9 +10,11 @@ use Sparrowdo::Core::DSL::Package;
 
 our sub tasks (%args) {
 
-    package-install 'gpg2';
+    package-install 'gnupg2';
 
     my $ruby-version = %args<ruby-version> || '2.1.0';
+
+    bash "test -f /tmp/sparrow-cache/gpg-import.ok || curl -ksSL https://rvm.io/mpapis.asc | gpg2 --import - && touch /tmp/sparrow-cache/gpg-import.ok";
 
     bash "test -f /etc/profile.d/rvm.sh || curl -L get.rvm.io | bash -s stable";
 
