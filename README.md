@@ -12,6 +12,11 @@
     
     # install specific Ruby version
     module_run 'Rvm', %( ruby_version => '2.1.2' );
+
+## Tested on
+
+* CentOS
+* Ubuntu
     
 ## LICENSE
 
