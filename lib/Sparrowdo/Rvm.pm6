@@ -12,7 +12,7 @@ our sub tasks (%args) {
 
     package-install 'gnupg2';
 
-    my $ruby-version = %args<ruby-version> || '2.1.0';
+    my $ruby-version = %args<version> || '2.1.0';
 
     bash "test -f /tmp/sparrow-cache/gpg-import.ok || curl -ksSL https://rvm.io/mpapis.asc | gpg2 --import - && touch /tmp/sparrow-cache/gpg-import.ok";
 

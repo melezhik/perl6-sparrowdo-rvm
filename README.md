@@ -11,7 +11,7 @@
     module_run 'Rvm';
     
     # install specific Ruby version
-    module_run 'Rvm', %( ruby_version => '2.1.2' );
+    module_run 'Rvm', %( version => '2.1.2' );
 
 ## Tested on
 
