@@ -23,8 +23,7 @@
   },
   "depends": [
     "Test::META",
-    "Sparrowdo",
-    "Sparrowdo::RemoteFile"
+    "Sparrowdo"
   ],
   "tags": [
     
