@@ -11,7 +11,8 @@
     module_run 'Rvm';
     
     # install specific Ruby version
-    module_run 'Rvm', %( version => '2.1.2' );
+    $ cat sparrowfile
+    module_run 'Rvm', %( version => '2.2.0' );
 
 ## Tested on
 
