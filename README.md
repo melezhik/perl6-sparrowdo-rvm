@@ -6,12 +6,18 @@
 
 [Sparrowdo](https://github.com/melezhik/sparrowdo) module to install RVM and Ruby.
 
+# Usage
+
+cli:
+
+    s6 --module-run Rvm
+
+Sparrow6 DSL:
+
     # install default RVM and default Ruby version
-    $ cat sparrowfile
-    module_run 'Rvm';
+    module-run 'Rvm';
     
     # install specific Ruby version
-    $ cat sparrowfile
     module_run 'Rvm', %( version => '2.2.0' );
 
 ## Tested on
