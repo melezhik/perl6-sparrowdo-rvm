@@ -19,11 +19,12 @@
     
   },
   "provides": {
+    "Sparrow6::Rvm" : "lib/Sparrow6/Rvm.pm6",
     "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"    
   },
   "depends": [
     "Test::META",
-    "Sparrowdo"
+    "Sparrow6"
   ],
   "tags": [
     
