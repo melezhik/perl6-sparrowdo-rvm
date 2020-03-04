@@ -1,49 +1,37 @@
 {
-  "name": "Sparrowdo::Rvm",
-  "source-url": "https://github.com/melezhik/perl6-sparrowdo-rvm.git",
-  "support": {
-    "source": null
-  },
-  "perl": "6.c",
-  "resources": [
-    
+  "auth" : "github:melezhik",
+  "authors" : [
+    "'Alexey Melezhik' <melezhik@gmail.com>"
   ],
-  "build-depends": [
-    
-  ],
-  "excludes": {
-    
-  },
-  "auth": "github:melezhik",
-  "superseded-by": {
-    
-  },
-  "provides": {
-    "Sparrow6::Rvm" : "lib/Sparrow6/Rvm.pm6",
-    "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"    
-  },
-  "depends": [
+  "build-depends" : [ ],
+  "depends" : [
     "Test::META",
     "Sparrow6"
   ],
-  "tags": [
-    
-  ],
-  "license": "Artistic-2.0",
-  "test-depends": [
-    
-  ],
-  "description": "Install RVM and Ruby",
-  "production": false,
-  "emulates": {
-    
+  "description" : "Install RVM and Ruby",
+  "emulates" : {
   },
-  "version": "0.0.1",
-  "meta6": "0",
-  "supersedes": {
-    
+  "excludes" : {
   },
-  "authors": [
-    "'Alexey Melezhik' <melezhik@gmail.com>"
-  ]
+  "license" : "Artistic-2.0",
+  "meta6" : "0",
+  "name" : "Sparrowdo::Rvm",
+  "perl" : "6.c",
+  "production" : false,
+  "provides" : {
+    "Sparrow6::Rvm" : "lib/Sparrow6/Rvm.pm6",
+    "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "https://github.com/melezhik/perl6-sparrowdo-rvm.git",
+  "superseded-by" : {
+  },
+  "supersedes" : {
+  },
+  "support" : {
+    "source" : null
+  },
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.2"
 }
